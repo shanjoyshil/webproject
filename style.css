@@ -1,0 +1,71 @@
+:root {
+    --teal: #2c3e50;         /* Deep blue-gray for a royal primary */
+    --teal_hover: #1a252f;   /* Slightly darker on hover */
+}
+
+body {
+    background-color: #f5f3ef;  /* Soft luxury ivory background */
+    color: #1a1a1a;             /* Rich dark text */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-brand {
+    font-family: "Sofia", sans-serif;
+    color: var(--teal);
+}
+
+.nav-item {
+    font-weight: bold;
+    color: var(--teal);
+}
+
+.custom-bg {
+    background-color: var(--teal);
+    border: 1px solid var(--teal);
+    color: white;
+}
+
+.custom-bg:hover {
+    background-color: var(--teal_hover);
+    border: 1px solid var(--teal_hover);
+    color: white;
+}
+
+.availability-form {
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+
+@media screen and (max-width: 575px) {
+    .availability-form {
+        margin-top: 25px;
+        padding: 0 45px;
+    }
+}
+
+.h1, .h-font {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--teal);
+}
+
+.bgground {
+    background-color: #f5f3ef;  /* Same VIP background */
+}
+
+.h-line {
+    width: 200px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #c59d5f;  /* VIP gold accent */
+}
+
+.custom-alert {
+    position: fixed;
+    top: 70px;
+    right: 25px;
+    background-color: #c59d5f;  /* Gold alert background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
